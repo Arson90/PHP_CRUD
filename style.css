@@ -1,0 +1,79 @@
+body {
+    background-color: sandybrown;
+    font-size: 20px;
+    font-family: "Arial";
+    color: white;
+}
+
+/*#main {*/
+/*    background-color: saddlebrown;*/
+/*    opacity: 0.8;*/
+/*    width: 50%;*/
+/*    margin: 30px auto;*/
+/*    padding: 10px;*/
+/*    border-radius: 25px;*/
+/*}*/
+
+.message {
+    padding: 10px;
+    border: 2px solid black;
+    color: red;
+    text-align: center;
+}
+
+table {
+    width: 85%;
+    margin: 20px 50px;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+tr {
+    border-bottom: 2px solid black;
+}
+
+th, td {
+    border: none;
+    height: 30px;
+    padding: 2px;
+}
+
+tr:hover {
+    background: firebrick;
+}
+
+form {
+    width: 80%;
+    margin: 20px 50px;
+    text-align: left;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+.input-data {
+    margin: 10px 0px 10px 0px;
+}
+
+.input-data label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-data input {
+    height: 30px;
+    width: 50%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.input-data button {
+    width: 20%;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
